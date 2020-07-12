@@ -1,0 +1,37 @@
+.rolldice-container {
+    margin: auto;
+    width:400px;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 5%;
+
+    .title {
+        text-align: center;
+    }
+
+    .dice-holder {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 10px 0;
+    }
+
+    .button-container {
+        text-align: center;
+        margin-bottom: 15px;
+
+        button {
+            width: 100px;
+            height: 50px;
+            background-color: lightgreen;
+            color: black;
+            border:1px solid green;
+
+            &:hover {
+                background-color: indigo;
+                color:white;
+                border: none;
+            }
+        }
+    }
+}

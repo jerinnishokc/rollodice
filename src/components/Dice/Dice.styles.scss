@@ -1,0 +1,31 @@
+.dice {
+    font-size: 10em;
+    padding: 0.25em;
+    color: slateblue;
+}
+
+.roll {
+    animation: roll-dice 0.5s ease;
+}
+
+@keyframes roll-dice {
+    // from {
+
+    // }
+
+    0% {
+        transform: translateX(0); 
+    }
+
+    25% {
+        transform: translateX(-50px);
+    }
+
+    75% {
+        transform: translateX(50px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
